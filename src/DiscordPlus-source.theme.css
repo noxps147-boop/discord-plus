@@ -473,10 +473,10 @@
 		/*--- 3 Background ---*/
 /* Quick and dirty fix for create a new server in dark mode */
 .theme-dark .layer-1Ixpg3 .theme-light { /* the ones i actually need */
-	--header-primary: #060607;
-	--header-secondary: #4f5660;
-	--text-normal: #2e3338;
-	--interactive-normal: #4f5660;
+	--header-primary: #eeeeee48;
+	--header-secondary: #eeeeee48;
+	--text-normal: #eeeeee48;
+	--interactive-normal: #eeeeee48;
 }
 	/*-- 3.1 Image --*/
 #app-mount {
@@ -489,7 +489,7 @@ body { background-color: var(--dplus-accent-ui); }
 		/*- 3.1.1 Transparent Mode / Light Mode Specifics -*/
 .bd-transparency, .bd-transparency #app-mount {background: transparent !important;}
 .theme-light .emoji, .theme-light .emoji.jumboable {
-	filter: drop-shadow(0 0 1px #00000055);
+	filter: drop-shadow(0 0 1px #eeeeee48);
 }
 .bd-pfbtn,
 .bda-settings-button,
